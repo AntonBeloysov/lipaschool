@@ -1,0 +1,1175 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+@font-face {
+    font-family: Pt;
+    src: url(/fonts/PT-Sans_Bold.woff2);
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(/fonts/OpenSans-Regular.woff2);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(/fonts/Montserrat-Bold.woff2);
+}
+
+body {
+    /* background-color: #e5e5e5; */
+    /* background-color: #eaeaea; */
+    background-color: #fff;
+}
+
+/*HEADER*/
+.back-fon {
+    object-fit: fill;
+    background-image: url(/img/kistochkastart.jpg);
+    background-size: 100%;
+}
+.header {
+    height:980px;
+}
+.img_header__logo {
+    left: 845px;
+    position: absolute;
+    top: 130px;
+}
+.img__header {
+    display: block;
+    width: 1140px;
+    height: 651px;
+    padding: 83px 0px 0px 0px;
+    margin: 0 auto;
+}
+.title {
+    position: absolute;
+    top:339px;
+    left:50%;
+    transform:translate(-50%, -50%);
+    color: #fff;
+    font-family: Pt;
+    font-size: 96px;
+    text-align: center;
+}
+.title__p {
+    position: absolute;
+    top:415px;
+    left:50%;
+    transform:translate(-50%, -50%);
+    color: #fff;
+    font-family: OpenSans;
+    font-size: 20px;
+    text-align: center;
+}
+.box__header {
+    position: absolute;
+    top:519px;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+.group {
+    width: 626px;
+    height: 77px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.list__header li {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 0px 10px;
+    border-right: 2px solid #89b2d8;
+    color: #89b2d8;
+}
+.list__header li:hover {
+    transition: 0.8s ease-out;
+    color: #000;
+}
+.list__header li:last-child {
+    border-right: none;
+}
+.list__header {
+    position: relative;
+    display: block;
+    top: 25px;
+    left: 100px;
+    font-family: OpenSans;
+    font-size: 20px;
+    width: 500px;
+}
+
+.svg__header {
+    display: block;
+    margin: 0 auto;
+    fill: rgb(255, 255, 255);
+}
+
+/* -------- */
+
+/* 2 блок "мы номер 1" */
+
+.row__ {
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+.row__2 {
+    padding-top: 70px;
+}
+.row__3 {
+    padding-top: 45px;
+}
+.row__4 {
+    padding-top: 95px;
+}
+
+.row__var__ {
+    display: none;
+    position: absolute;
+    overflow: hidden;
+    transition: max-height 0.6s ease-out;
+}
+
+.block__var__ {
+    width: 300px;
+    height: 200px;
+    margin-left: 28px;
+    border: 2px solid #000;
+    border-top: none;
+    z-index: 10;
+}
+ 
+.two__block {
+    padding-bottom: 60px;
+    height: 610px;
+}
+.row__info__button__ {
+    display: flex;
+    justify-content: center;
+}
+.info__card {
+    border: 2px solid #000;
+    background: none;
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.title2 {
+    font-family: Montserrat;
+    font-size: 48px;
+    text-align: center;
+    width: 932px;
+    display: block;
+    margin: 0 auto;
+    padding: 60px 0px 61px 0px;
+}
+.card {
+    width: 360px;
+    min-height: 280px;
+    /* border-radius: 30px; */
+    text-align: left;
+}
+.card:hover {
+    transition: 0.8s ease-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card-title {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 40px 0px 30px 20px;
+}
+.desc {
+    font-family: OpenSans;
+    font-size: 16px;
+    font-style: italic;
+    padding-left: 20px;
+    width: 300px;
+    line-height: 24px;
+}
+
+.color {
+    background-color: #fff;
+    border: 2px solid #000;
+}
+.color2 {
+    background-color: #7bd9e2;
+    border: 2px solid #000;
+}
+.color3 {
+    background-color: #e9b6e5;
+    border: 2px solid #000;
+}
+.color4 {
+    background-color: #fff;
+    border: 2px solid #000;
+}
+.row__block {
+    width: 1540px;
+    display: flex;
+    justify-content: space-between;
+}
+.bob__block {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* -------- */
+
+/* 3 block */
+
+.three_block {
+    height: 872px;
+    background-color: #fff;
+}
+.title3 {
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 90px;
+    text-align: center;
+}
+.desc2 {
+    font-family: OpenSans;
+    padding-top: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    color: #000;
+}
+
+.card-block {
+    width: 360px;
+    height: 422px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.img__lessons {
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.title-block {
+    font-family: Montserrat;
+    font-size: 24px;
+    color: #db9c54;
+    padding: 20px 0px 20px 0px;
+}
+.card-content {
+    padding: 28px;
+}
+.ul-block li {
+    padding-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    list-style-type: disc;
+    font-family: OpenSans;
+}
+.card_row {
+    display: flex;
+    padding-top: 119px;
+    width: 1140px;
+    justify-content: space-between;
+}
+.rowthree {
+    display: flex;
+    justify-content: center;
+}
+
+.title-items1 {
+    font-family: Montserrat;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+.title-h1 {
+    font-size: 24px;
+    font-weight: bold;
+    width: 510px;
+    padding-bottom: 60px;
+}
+.desc-items1 {
+    font-family: OpenSans;
+    line-height: 24px;
+    width: 510px;
+    color: #999999;
+    padding-bottom: 50px;
+}
+.font {
+    font-size: 15px;
+}
+.font2 {
+    font-size: 18px;
+}
+.items {
+    background-color: #fff;
+    padding-top: 50px;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.itm-bb {
+    width: 1140px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.koko_item {
+    width: 362px;
+    height: 457px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.item-color {
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    padding-bottom: 100px;
+}
+.item1 {
+    padding-top: 46px;
+    text-align: center;
+}
+.flowers_item {
+    width: 463px;
+    height: 532px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.pole_item {
+    width: 563px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.prep {
+    height: 567px;
+    background-color: #fff;
+    /* на случай - #e6cde3 */
+}
+.title__prep {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 60px;
+}
+.card__prep {
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+.row__card {
+    display: flex;
+    width: 708px;
+    min-height: 276px;
+    justify-content: space-evenly;
+    background-color: #fff;
+    border: 2px solid #eaeaea;
+    border-radius: 25px;
+}
+.card__prep__content {
+    padding-top: 50px;
+}
+.desc__card-prep {
+    font-family: OpenSans;
+    font-size: 16px;
+    width: 455px;
+    padding-bottom: 21px;
+    line-height: 20px;
+}
+.tit__card-prep {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.img__card__prep {
+    width: 160px;
+    height: 184px;
+    border-radius: 8px;
+    margin-top: 45px;
+    object-fit: cover;
+}
+.desc_tit_card {
+    font-size: 16px;
+    font-family: OpenSans;
+}
+.devis {
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    height: 819px;
+}
+.square {
+    width: 461px;
+    height: 658px;
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.row__devis {
+    display: flex;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 200px;
+}
+.title__devis {
+    font-family: Montserrat;
+    font-size: 48px;
+    width: 650px;
+    line-height: 58px;
+}
+.img__devis {
+    width: 735px;
+    height: 527px;
+    margin-top: -200px;
+}
+.form__block {
+    width:100%;
+    overflow: hidden;
+    height: 516px;
+}
+.form__block img {
+    width:1920px;
+    height: 516px;
+    object-fit:cover;
+}
+.back__block {
+    display: block;
+}
+
+/* Контакты */
+
+.contact__block {
+    height: 682px;
+    width: 1192px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: -100px;
+}
+.row__center {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    flex: 1 1 auto;
+}
+.contact__card_form1 {
+    width: 580px;
+    height: 690px;
+    background-color: #fff;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+.title__card-form1 {
+    font-size: 36px;
+    font-family: OpenSans;
+    padding-bottom: 40px;
+}
+.desc__card-form1 {
+    font-size: 18px;
+    font-family: OpenSans;
+    padding-bottom: 23px;
+}
+.line__card {
+    width: 437px;
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #e5e5e5; /* Цвет линии для остальных браузеров */
+    background-color: #e5e5e5; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
+}
+.otstup__hr {
+    padding-bottom: 33px;
+}
+.row__svg-card1 {
+    display: flex;
+    width: 270px;
+    justify-content: space-between;
+    padding-bottom: 55px;
+}
+.title__svg-content {
+    font-family: Montserrat;
+    font-size: 18px;
+    padding-bottom: 11px;
+}
+.desc__svg-content__ {
+    font-family: OpenSans;
+    font-size: 16px;
+    font-style: italic;
+    width: 200px;
+}
+.row__svg-card2 {
+    display: flex;
+    width: 270px;
+    justify-content: space-between;
+}
+.contact__card_form2 {
+    width: 580px;
+    height: 690px;
+    background-color: #fff;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+.card__row__form__text {
+    padding: 40px;
+}
+.tit__email {
+    font-size: 24px;
+    font-family: OpenSans;
+    font-family: Montserrat;
+}
+.name {
+    font-size: 18px;
+    padding: 30px 0px 5px 0px;
+}
+.form__name {
+    font-size: 16px;
+    width: 450px;
+    height: 40px;
+    border-radius: 6px;
+    text-indent: 20px;
+    font-family: Montserrat;
+    background-color: #dadada;
+}
+.email {
+    font-size: 18px;
+    padding: 25px 0px 5px 0px;
+}
+.form__email {
+    font-size: 16px;
+    width: 450px;
+    height: 40px;
+    border-radius: 6px;
+    text-indent: 20px;
+    font-family: Montserrat;
+    background-color: #dadada;
+}
+.select__form {
+    margin-top: 20px;
+    font-size: 16px;
+    width: 450px;
+    height: 40px;
+    border-radius: 6px;
+    text-indent: 20px;
+    font-family: Montserrat;
+    background-color: #dadada;
+}
+.form__num {
+    font-size: 16px;
+    width: 450px;
+    height: 40px;
+    border-radius: 6px;
+    text-indent: 20px;
+    background-color: #dadada;
+    font-family: Montserrat;
+}
+.message {
+    font-size: 18px;
+    padding: 25px 0px 5px 0px;
+}
+.number__form {
+    padding-top: 10px;
+}
+.number {
+    font-size: 18px;
+    padding: 25px 0px 5px 0px;
+}
+.form__message {
+    font-size: 16px;
+    width: 450px;
+    height: 100px;
+    border-radius: 6px;
+    text-indent: 20px;
+    padding-top: 10px;
+    resize: none;
+    background-color: #dadada;
+    font-family: Montserrat;
+}
+.pad__card {
+    padding: 40px;
+}
+.button__form {
+    width: 450px;
+    height: 62px;
+    background-color: #7bd9e2;
+    font-size: 20px;
+    font-family: OpenSans;
+    border-radius: 10px;
+}
+.button__form:hover {
+    transition: 0.4s ease-out;
+    background-color: #34b0bb;
+}
+.button__form__pad__ {
+    padding-top: 25px;
+}
+
+.card1__ {
+    width: 360px;
+}
+.row__svg-header {
+    padding-top: 10px;
+}
+.title__swiper {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px 0px 30px 0px;
+    display: none;
+}
+.swiper {
+    padding: 30px;
+    min-height: 900px;
+}
+.image-slider{
+    padding: 30px 0 70px 0;;
+}
+.image-slider__image {
+    text-align: center;
+}
+.image-slider__image img {
+    margin-top: 30px;
+}
+.foto1 {
+    width: 500px;
+    height: 750px;
+    object-fit: cover;
+}
+.foto2 {
+    width: 500px;
+    height: 750px;
+    object-fit: cover;
+}
+.foto3 {
+    width: 500px;
+    height: 750px;
+    object-fit: cover;
+}
+.seven {
+    width: 700px;
+    height: 750px;
+}
+.eight {
+    width: 700px;
+    height: 750px;
+}
+.swiper {
+    background-color: #fff;
+}
+.rad_ft {
+    border-radius: 20px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+.swiper-button-prev::after {
+  color:rgb(0, 0, 0);
+  font-size:90px;
+  padding: 0px 0px 0px 500px;
+}
+.swiper-button-next::after {
+    color:rgb(0, 0, 0);
+    font-size:90px;
+    padding: 0px 500px 0px 0px;
+}
+.swiper-pagination {
+    margin-bottom: 30px;
+}
+.swiper .swiper-pagination-bullet {
+    background-color: #000;
+}
+a:active, /* активная/посещенная ссылка */
+a {
+  text-decoration: none;
+  color: #89b2d8;
+}
+a:hover {
+    transition: 0.8s ease-out;
+    color:rgb(0, 0, 0);
+}
+
+/* NEWS 'new block' */
+ 
+.title__news {
+    padding: 60px 0px 60px 0px;
+    font-size: 49px;
+    text-align: center;
+    font-family: Montserrat;
+}
+.news {
+    background-color: #fff;
+}
+.block__img__slide1 {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.desc__slide1 {
+    font-size: 30px;
+    width: 300px;
+    font-family: OpenSans;
+    font-weight: bold;
+}
+.block__img__slide2 {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.block__img__slide3 {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.block__img__slide4 {
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.block__img__slide5 {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.slide1_ {
+    width: 920px;
+    min-height: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.row__slide1__ {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.swiper-paginatio {
+    padding-top: 70px;
+    text-align: center;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.p__footer {
+    font-size: 16px;
+    font-family: OpenSans;
+    font-style: italic;
+}
+.devok__img {
+    width: 200px;
+    height: 70px;
+    padding-left: 20px;
+}
+.row__footer {
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    padding-top: 620px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon__svg__con__ {
+    width: 40px;
+    height: 40px;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+
+.accordion {
+    border: 2px solid #000;
+    font-family: Montserrat;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 400px;
+    color: #000;
+    cursor: pointer;
+    padding: 18px;
+    text-align: center;
+    outline: none;
+    transition: 0.4s;
+}
+
+.accordion:first-child {
+    margin-top: 200px;
+}
+
+.con__block {
+    padding-top: 70px;
+}
+  
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease-out;
+}
+
+.abv__panel {
+    transition: max-height 0.6s ease-out;
+    z-index: 11;
+    width: 250px;
+    height: 100%;
+    text-align: center;
+    padding-top: 12px;
+    font-family: OpenSans;
+    font-size: 15px;
+    padding-left: 50px;
+    font-style: italic;
+    line-height: 24px;
+}
+
+/* ------------------------------------ */
+
+@media screen and (max-width: 991px) {
+    /* стили для ноутбуков - начало */
+    .back-fon {
+        background: url(img/kistochkastart.jpg) no-repeat;
+    }
+    .img_header__logo {
+        left: 410px;
+        top: 90px;
+    }
+    .img__header {
+        width: 940px;
+        height: 556px;
+    }
+}
+    
+@media screen and (max-width: 767px) {
+    /* стили для планшетов - начало */
+
+}
+    
+@media screen and (max-width: 479px) {
+    /* стили для телефонов - начало */
+    .footer {
+        padding: 800px 0px 0px 0px;
+    }
+    .devok__img {
+        width: 150px;
+        height: 50px;
+        padding-left: 10px;
+    }
+    /* News new block */
+    .slide1_ {
+        min-height: 1200px;
+    }
+    .desc__slide1 {
+        padding-top: 20px;
+        margin-left: 60px;
+    }
+    .block__img__slide1 {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 20px;
+        margin-left: 20px;
+        padding-bottom: 50px;
+    }
+    .block__img__slide2 {
+        display: none;
+    }
+    .block__img__slide3 {
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 20px;
+        margin-left: 20px;
+    }
+    .block__img__slide5 {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 20px;
+        margin-left: 20px;
+    }
+    .block__img__slide4 {
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 20px;
+        margin-left: 20px;
+    }
+    .swiper-paginatio {
+        padding-top: 2px;
+    }
+    /* -------------- */
+    .line__card {
+        width: 237px;
+    }
+    body {
+        /* Убирает прокрутку по горизонтале, для мобильной версии */
+        overflow-x: hidden;
+    }
+    .back-fon {
+        background: url(img/kistochkastart.jpg) no-repeat;
+    }
+    .img_header__logo {
+        width:60px;
+        left: 160px;
+        top: 90px;
+    }
+    .title__p {
+        display: none;
+    }
+    .svg__header {
+        fill: #000;
+    }
+    .foto1 {
+        width: 300px;
+        height: 500px;
+        object-fit: cover;
+    }
+    .foto2 {
+        width: 300px;
+        height: 500px;
+        object-fit: cover;
+    }
+    .foto3 {
+        width: 300px;
+        height: 500px;
+        object-fit: cover;
+    }
+    .swiper-button-prev::after {
+        color:rgb(0, 0, 0);
+        font-size:90px;
+        padding: 500px 0px 0px 100px;
+      }
+    .swiper-button-next::after {
+        color:rgb(0, 0, 0);
+        font-size:90px;
+        padding: 500px 100px 0px 0px;
+    }
+    .swiper-pagination {
+        margin-bottom: 50px;
+    }
+    .swiper {
+        min-height: 800px;
+    }
+    .img__header {
+        width: 360px;
+        height: 306px;
+    }
+    .row__block {
+        width: 340px;
+        height: 1050px;
+        flex-wrap: wrap;
+    }
+    .card {
+        padding-left: 20px;
+    }
+    .title2 {
+        font-size: 30px;
+        width: 340px;
+    }
+    .card_row {
+        width: 340px;
+        height: 1440px;
+        flex-wrap: wrap;
+    }
+    .three_block {
+        height: 1751px;
+    }
+    .two__block {
+        height: 1350px;
+    }
+    .card-block {
+        width: 360px;
+    }
+    .title {
+        font-size: 36px;
+        top:179px;
+    }
+    .header {
+        height:817px;
+    }
+    .box__header {
+        top:299px;
+        
+    }
+    .group {
+        width: 340px;
+        height: 100px;
+    }
+    .list__header {
+        left: 0px;
+        line-height: 30px;
+        width: 320px;
+    }
+    .list__header:last-child {
+        text-align: center;
+    }
+    .row__svg-header {
+        padding-top: 150px;
+    }
+    .desc {
+        width: 200px;
+        line-height: 20px;
+    }
+    .card-title {
+        width: 250px;
+    }
+    .items{
+        width: 360px;
+        flex-wrap: wrap;
+    }
+    /* .title-items1 */
+    .title-h1 {
+        width: 313px;
+    }
+    .desc-items1 {
+        width: 320px;
+    }
+    .item1 {
+        display: block;
+        margin: 0 auto;
+    }
+    .koko_item {
+        width: 300px; 
+        height: 379px; 
+        margin-left: 45px;
+    }
+    .flowers_item {
+        width: 350px; 
+        height: 379px;
+        margin-left: 18px;
+        margin-top: -70px;
+    }
+    .pole_item {
+        width: 290px; 
+        height: 200px;
+        margin-left: 50px;
+        margin-top: 70px;
+    }
+    .title__prep {
+        font-size: 36px;
+    }
+    .row__card {
+        width: 340px;
+        height: 522px;
+        flex-wrap: wrap;
+    }
+    .prep {
+        height: 779px;
+    }
+    .desc__card-prep {
+        width: 300px;
+    }
+    .square {
+        width: 227px; 
+        height: 638px;
+    }
+    .img__devis {
+        display: none;
+    }
+    .title__devis {
+        font-size: 36px;
+        width: 400px;
+        margin-left: -205px;
+        text-align: center;
+    }
+    .form__block img {
+        width: 540px;
+        height: 327px;
+    }
+    .contact__card_form1 {
+        width: 340px;
+        height: 494px;
+    }
+    .contact__card_form2 {
+        width: 340px;
+        height: 694px;
+    }
+    .footer {
+        padding-top: 970px;
+        margin-bottom: 10px;
+    }
+    .contact__block {
+        height: 1020px;
+        width: 340px;
+        flex-wrap: wrap;
+        margin-top: -250px;
+    }
+    .desc__svg-content__ {
+        width: 200px;
+    }
+    .row__svg-card1 {
+        width: 250px;
+    }
+    .row__svg-card2 {
+        width: 250px;
+    }
+    .form__name {
+        width: 250px;
+    }
+    .form__email {
+        width: 250px;
+    }
+    .select__form {
+        width: 250px;
+    }
+    .form__num {
+        width: 250px;
+    }
+    .form__message {
+        width: 250px;
+    }
+    .button__form {
+        width: 250px;
+    }
+}

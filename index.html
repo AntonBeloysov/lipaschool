@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <title>Lipa School</title>
+</head>
+<body>
+    <div class="row__main">
+        <div class="main">
+            <div class="back-fon">
+                    <div class="header">
+                        <img class="img__header" src="/img/vvv-min.png" alt="">
+                        <h1 class="title">Lipa School</h1>
+                        <p class="title__p">Art school by Sveta Lipinskaya</p>
+                        <img class="img_header__logo" width='140px' src="/img/logo.png" alt="">
+                        <div class="row__svg-header">
+                            <svg class="svg__header" width="100" height="100" viewBox="0 0 2048 2048" xmlns="http://www.w3.org/2000/svg"><path d="M1523 992q0 13-10 23l-466 466q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l393 393 393-393q10-10 23-10t23 10l50 50q10 10 10 23zm0-384q0 13-10 23l-466 466q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l393 393 393-393q10-10 23-10t23 10l50 50q10 10 10 23z"/></svg>
+                        </div>
+                    </div>
+            </div>
+            <div class="two__block" id="two__block">
+                    <h1 class="title2">Escuela de Arte en Zaragoza</h1>
+                    <div class="bob__block">
+                        <div class="row__block">
+                            <div class="card color">
+                                <h1 class="card-title">Clases presenciales</h1>
+                                <p class="desc">Clases grupales de 2,5 horas (máximo 6 personas) con acompañamiento personalizado. No importa cuál sea tu nivel.</p>
+                                <div class="row__info__button__ row__">
+                                    <button onclick="heigth_plus()" class="info__card button__panel">VER</button>
+                                </div>
+                                <div id="p" class="row__var__">
+                                    <div class="block__var__ color">
+                                        <p class="abv__panel">Цветок представляет собой видоизменённый, укороченный и ограниченный в росте спороносный побег, приспособленный для образования спор и гамет</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card color2">
+                                <h1 class="card-title">Clases particular</h1>
+                                <p class="desc">Adaptádas al nivel y a los intereses 
+                                    del alumnado hasta alcanzar 
+                                    sus metas.</p>
+                                <div class="row__info__button__ row__2">
+                                    <button onclick="heigth_plus()" class="info__card button__panel">VER</button>
+                                </div>
+                                <div id="p" class="row__var__">
+                                    <div class="block__var__ color2">
+                                        <p class="abv__panel">Цветок представляет собой видоизменённый, укороченный и ограниченный в росте спороносный побег, приспособленный для образования спор и гамет</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card color3">
+                                <h1 class="card-title">Clases online</h1>
+                                <p class="desc">Para aprender de dibujo y pintura 
+                                    desde casa y para que puedas 
+                                    adaptar fácilmente las clases 
+                                    a tus horarios y ritmo de vida.</p>
+                                <div class="row__info__button__ row__3">
+                                    <button onclick="heigth_plus()" class="info__card button__panel">VER</button>
+                                </div>
+                                <div id="p" class="row__var__">
+                                    <div class="block__var__ color3">
+                                        <p class="abv__panel">Цветок представляет собой видоизменённый, укороченный и ограниченный в росте спороносный побег, приспособленный для образования спор и гамет</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card color4">
+                                <h1 class="card-title">Tienda online</h1>
+                                <p class="desc">Занятия держатся за определенным графиком.</p>
+                                <div class="row__info__button__ row__4">
+                                    <button onclick="heigth_plus()" class="info__card button__panel">VER</button>
+                                </div>
+                                <div id="p" class="row__var__">
+                                    <div class="block__var__ color">
+                                        <p class="abv__panel">Цветок представляет собой видоизменённый, укороченный и ограниченный в росте спороносный побег, приспособленный для образования спор и гамет</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <button class="accordion color">SOBRE NOSOTROS</button>
+            <div class="panel">
+                <div id="onac" class="item-color">
+                    <div class="itm-bb">
+                        <div class="items">
+                            <div class="item1">
+                                <h5 class="title-items1">О НАС</h5>
+                                <h1 class="title-h1">​Мы те кто научим писать картины пастелью именно тебя!</h1>
+                                <p class="desc-items1 font2">​Наш опытный специалист в области творчества, за спиной которого проделано много работы. Она передаст вам свои знания и умения разбивать их о стену искусства</p>
+                                <p class="desc-items1 font">Примеры работ</p>
+                            </div>
+                            <!-- <div class="item2">
+                                <img class="koko_item" src="/img/koko.jpg" alt="">
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper">
+                    <!-- wrapper -->
+                    <div class="wrapper">
+                    <h1 class="title__swiper">Галерея</h1>
+                      <!-- Слайды -->
+                        <div class="image-slider swiper-container">
+                            <div class="image-slider__slide swiper-wrapper">
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img class="foto1 rad_ft" src="/img/imgnumber1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img class="foto1 rad_ft" src="/galleryimg/01.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img class="foto1 rad_ft" src="/img/koko.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img class="foto2 rad_ft" src="/galleryimg/02.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img class="foto3 rad_ft" src="/galleryimg/03.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img class="foto3 rad_ft" src="/galleryimg/04.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img class="foto3 rad_ft" src="/galleryimg/05.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img class="foto3 rad_ft" src="/galleryimg/06.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img class="foto3 rad_ft seven" src="/galleryimg/07.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img class="foto3 rad_ft 08 eight" src="/galleryimg/08.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img class="foto3 rad_ft" src="/galleryimg/09.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img class="foto3 rad_ft" src="/galleryimg/10.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img class="foto3 rad_ft" src="/galleryimg/11.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img class="foto3 rad_ft" src="/galleryimg/12.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img class="foto3 rad_ft" src="/galleryimg/13.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Если нужна пагинацаия -->
+                    <div class="swiper-pagination"></div>
+                  
+                    <!-- Если нужны кнопки навигации влево и вправо -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <button class="accordion color">POR QUE ELEGIR LIPA SCHOOL?</button>
+            <div class="panel">
+                <div id="garanty" class="three_block">
+                    <h1 class="title3">Наши возвожности</h1>
+                    <p class="desc2">Мы вам гарантируем:</p>
+                    <div class="rowthree">
+                        <div class="card_row">
+                            <div class="card-block card1__">
+                                <div class="card-content">
+                                    <img class="img__lessons" src="/img/CoolClips_arts0097.png" width="204" height="194" alt="" />
+                                    <h1 class="title-block">ОБУЧЕНИЕ</h1>
+                                    <ul class="ul-block">
+                                        <li>Быстро и Просто</li>
+                                        <li>Опытный Преподаватель</li>
+                                        <li>Уютная обстановка</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-block">
+                                <div class="card-content">
+                                    <img class="img__lessons" src="/img/card1.jpg" width="304" height="194" alt="" />
+                                    <h1 class="title-block">ПРЕИМУЩЕСТВА</h1>
+                                    <ul class="ul-block">
+                                        <li>низкая цена</li>
+                                        <li>приятный коллектив</li>
+                                        <li>двухчасовые занятия</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-block">
+                                <div class="card-content">
+                                    <img class="img__lessons" src="/img/card2.jpg" width="304" height="194" alt="" />
+                                    <h1 class="title-block">ПЕРСПЕКТИВЫ</h1>
+                                    <ul class="ul-block">
+                                        <li>Прогресс в творчестве</li>
+                                        <li>С нуля до профессионализма</li>
+                                        <li>Добьетесь идеального результата</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="item-color">
+                <div class="itm-bb">
+                    <div class="items">
+                        <div class="">
+                             <img class="flowers_item" src="/img/flower.jpg" alt="">
+                        </div>
+                        <div class="item2">
+                            <img class="pole_item" src="/img/pole.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <button class="accordion color">LA FUNDADORA</button>
+            <div class="panel">
+                <div id="prep" class="prep">
+                    <h1 class="title__prep">Основатель Школы</h1>
+                    <div class="card__prep">
+                        <div class="row__card">
+                            <img class="img__card__prep" src="/galleryimg/09.jpg" alt="">
+                            <div class="card__prep__content">
+                                <p class="desc__card-prep">Квалифицированный преподаватель художественного мастерства. Большой опыт работы с учениками. Хороший педагог.</p>
+                                <h1 class="tit__card-prep">Светлана Липинская</h1>
+                                <p class="desc_tit_card">Художник</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="accordion color">NUESTRO LEMA</button>
+            <div class="panel">
+                <div id="devis" class="devis">
+                    <div class="square"></div>
+                    <div class="row__devis">
+                        <h1 class="title__devis">Твои идеи, наши способы их реализовать</h1>
+                        <img class="img__devis" src="/img/aaaa-min.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <button class="accordion color">ULTIMAS NOTICIAS</button>
+            <div class="panel">
+                <div class="news">
+                    <h1 class="title__news">Новости Школы</h1>
+                    <div class="swiper">
+                        <!-- wrapper -->
+                        <div class="wrapper">
+                        <h1 class="title__swiper">Галерея</h1>
+                          <!-- Слайды -->
+                            <div class="image-slid swiper-container">
+                                <div class="image-slider__slide swiper-wrapper">
+                                    <div class="image-slider__slide swiper-slide">
+                                        <div class="image-slider__image">
+                                            <div class="row__slide1__">
+                                                <div class="slide1_">
+                                                    <img class="block__img__slide1 rad_ft" src="/img/news/sergey/ser3.jpg" alt="">
+                                                    <p class="desc__slide1">Цветок представляет собой видоизменённый, укороченный и ограниченный в росте спороносный побег, приспособленный для образования спор и гамет</p>
+                                                    <img class="block__img__slide2 rad_ft" src="/img/news/sergey/ser1.jpg" alt="">
+                                                    <img class="block__img__slide3 rad_ft" src="/img/news/sergey/ser2.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="image-slider__slide swiper-slide">
+                                        <div class="image-slider__image">
+                                            <div class="row__slide1__">
+                                                <div class="slide1_">
+                                                    <img class="block__img__slide5 rad_ft" src="/img/news/all/01.jpg" alt="">
+                                                    <p class="desc__slide1">Цветок представляет собой видоизменённый, укороченный и ограниченный в росте спороносный побег, приспособленный для образования спор и гамет</p>
+                                                    <img class="block__img__slide4 rad_ft" src="/img/news/all/02.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Если нужна пагинацаия -->
+                        <div class="swiper-paginatio"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="con__block">
+                <div id="contact" class="form__block">
+                        <img src="/img/back-img2 (2).jpg" alt="" class="back__block">
+                </div>
+                <div class="color__block">
+                        <div class="wrap__block">
+                            <div class="row__center">
+                                <div class="contact__block">
+                                    <div class="contact__card_form1">
+                                        <div class="card__row__form__text">
+                                            <h1 class="title__card-form1">Контакты</h1>
+                                            <p class="desc__card-form1">Если вас ещё что то интересует позвоните нашему преподавателю!</p>
+                                            <div class="otstup__hr">
+                                                <hr class="line__card">
+                                            </div>
+                                            <div class="svg-content__card">
+                                                <div class="row__svg-card1">
+                                                    <img width="33px" height="33px" src="/img/8.png" alt="">
+                                                    <div class="content__svg-card__text1">
+                                                        <h1 class="title__svg-content">Our School Location</h1>
+                                                        <p class="desc__svg-content__">C. de la Manifestación, 33, 50003 Zaragoza</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row__svg-card2">
+                                                    <img width="33px" height="33px" src="/img/9.png" alt="">
+                                                    <div class="content__svg-card__text2">
+                                                        <h1 class="title__svg-content">Phone</h1>
+                                                        <p class="desc__svg-content__">+34 679 75 88 77</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="contact__card_form2">
+                                        <div class="pad__card">
+                                            <h1 class="tit__email">Отослать Email</h1>
+                                            <p class="name">Name</p>
+                                            <input id="name" required class="form__name" type="text" placeholder="Enter your Name"></input>
+                                            <p class="email">Email</p>
+                                            <input id="email" required class="form__email" type="email" placeholder="Enter your Email"></input>
+                                            <p class="message">Message</p>
+                                            <textarea id="message" required class="form__message" placeholder="Enter your Message" maxlength="150" name="" id="" cols="30" rows="10"></textarea>
+                                            <select id="select" class="select__form">
+                                                <option value="Напишите мне на Viber">Viber</option>
+                                                <option value="Напишите мне на WhatsApp">WhatsApp</option>
+                                                <option value="Напишите мне на Telegram">Telegram</option>
+                                                <option value="Напишите мне на Email">Email</option>
+                                                <option value="Call me">Call me</option>
+                                            </select>
+                                            <p class="number">Number*</p>
+                                            <input id="number" required class="form__num" maxlength="14" placeholder="Enten your Phone" type="tel"></input>
+                                            <div class="button__form__pad__">
+                                                <button onclick="send()" class="button__form" href="#">Send Email</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="row__footer">
+            <div class="footer">
+                <a href="https://www.instagram.com/lipa_school/"><img class="icon__svg__con__" src="/icons/instagram.png" alt=""></a>
+                <a href=""><img class="icon__svg__con__" src="/icons/telegram.png" alt=""></a>
+                <a href="https://wa.me/34679758877"><img class="icon__svg__con__" src="/icons/whatsapp.png" alt=""></a>
+                <a href="https://www.tiktok.com/@lipa_school"><img class="icon__svg__con__" src="/icons/tik-tok.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="/email/email.js"></script>
+    <script src="/scripts/inpt.js"></script>
+    <script src="/scripts/tigger.js"></script>
+    <script src="/scripts/acco.js"></script>
+    <script src="/scripts/yak.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="scripts/swiptwo.js"></script>
+    <script src="/scripts/swip.js"></script>
+</body>
+</html>
